@@ -1,0 +1,26 @@
+from sqlalchemy.orm import Session
+from database.models import Resident
+
+def create_zone(db: Session, name, center_lat, center_lng, radius_meters, polygon, risk_score, total_votes):
+    pass
+
+def get_zone(db: Session, zone_id):
+    pass
+
+def update_zone(db: Session, zone_id):
+    pass
+
+def delete_zone(db: Session, zone_id):
+    pass
+    
+# CREATE TABLE zones (
+#     id INT AUTO_INCREMENT PRIMARY KEY,
+#     name VARCHAR(255),
+#     center_lat DECIMAL(10,7),
+#     center_lng DECIMAL(10,7),
+#     radius_meters INT,
+#     polygon JSON,
+#     risk_score INT DEFAULT 100,
+#     total_votes INT DEFAULT 0,
+#     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+# );
