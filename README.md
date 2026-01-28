@@ -9,3 +9,10 @@ Map that suggests a location is safe/unsafe/warning zone based on risk score for
 - Maps: GoogleMaps (using API)
 - Database: MySQL
 - Deployment: Render, Railway
+
+### Completed layers
+- Backend
+- Database
+
+### In-progress layers
+- API layer
