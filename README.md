@@ -16,3 +16,6 @@ Map that suggests a location is safe/unsafe/warning zone based on risk score for
 
 ### In-progress layers
 - API layer
+
+### To-do layers
+- Frontend (Presentation layer)
