@@ -8,7 +8,7 @@ Map that suggests a location is safe/unsafe/warning zone based on risk score for
 - API: FastAPI
 - Maps: GoogleMaps (using API)
 - Database: MySQL
-- Deployment: Render, Railway
+- Deployment: Vercel(Frontend), Render(Backend), Railway(DB)
 
 ### Completed layers
 - Backend
